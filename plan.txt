@@ -1,0 +1,11 @@
+Goal: Predict how the tyre degradation will affect lap time.
+How: Using scikit-learn, pandas, numpy etc
+
+Steps:
+1. Use NumPy and Pandas to clean the data, such as:
+    - removing outlier laps (safety cars, vsc, red flags, in laps, outlaps, any outliers)
+    - adapting the data so that the fuel loss doesn't affect lap times (lap times should in theory increase)
+    - clean air laps preferably
+    - categorise into whether laps utilised drs or not
+
+2. Use machine learning stuff to find facts about of the data.
